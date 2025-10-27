@@ -1,4 +1,4 @@
-# Smart Queue Scheduler using Deep Q-Network (DQN)
+# Deep Queue-Learning: A Quest to Optimize Office Hours
 
 ---
 
@@ -19,16 +19,16 @@ The system intelligently manages task queues by learning optimal scheduling poli
 
 ---
 
-## 🧩 Problem Definition
+## Problem Definition
 
 Traditional queue scheduling (FIFO, Round Robin, etc.) doesn’t adapt dynamically to changing system loads.  
 The objective here is to design an **adaptive scheduler** that can **learn** and **improve over time**, achieving better throughput and lower waiting times using reinforcement learning.
 
 ---
 
-## ⚙️ Technical Implementation Details
+## Technical Implementation Details
 
-### 1️⃣ Reinforcement Learning Setup
+### 1.Reinforcement Learning Setup
 
 The system is modeled as a **Markov Decision Process (MDP)**:
 
@@ -41,7 +41,7 @@ The system is modeled as a **Markov Decision Process (MDP)**:
 
 ---
 
-### 2️⃣ Deep Q-Network (DQN)
+### 2.Deep Q-Network (DQN)
 
 The DQN approximates the **Q-value function** using a neural network:
 
@@ -54,7 +54,7 @@ The DQN approximates the **Q-value function** using a neural network:
 
 ---
 
-## 🎛️ Training Parameters
+## 3.Training Parameters
 
 | Parameter | Value |
 |------------|--------|
@@ -69,7 +69,7 @@ During training, the agent interacts with the environment, learns from rewards, 
 
 ---
 
-## 🚀 Setup and Execution Instructions
+## 4.Setup and Execution Instructions
 
 ### Prerequisites
 
@@ -110,14 +110,14 @@ Total Reward: 47.80
 
 Average Reward per Step: 0.96
 
-📈 Visualization
-1️⃣ Reward per Episode
+Visualization
+Reward per Episode
 
-2️⃣ Epsilon Decay over Time
+Epsilon Decay over Time
 
 (If your graphs are not yet added, you can replace these placeholders later.)
 
-🧠 Conclusion
+Conclusion
 
 The Smart Queue Scheduler effectively learned optimal scheduling behavior using reinforcement learning.
 With more episodes and hyperparameter tuning, performance can improve further, approaching an ideal adaptive scheduler.
@@ -130,7 +130,7 @@ Integrate with IoT or cloud-based environments
 
 Compare performance with traditional scheduling algorithms
 
-📁 Project Directory Structure
+Project Directory Structure
 ML_Project/
 │
 ├── models/
